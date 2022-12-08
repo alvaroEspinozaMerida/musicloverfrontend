@@ -1,0 +1,13 @@
+.user-page{
+    margin-left: 250px;
+    display: flex;
+}
+.user-image{
+    height: auto;
+    width: 275px;
+    border-radius: 25px;
+}
+.text-zone{
+    margin-left: 100px;
+
+}
