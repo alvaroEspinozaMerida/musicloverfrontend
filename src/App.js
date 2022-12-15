@@ -1,5 +1,6 @@
 import AppBar from "./components/Appbar"
 import ProfilePage from "./components/ProfilePage"
+import "./App.css"
 
 function App() {
   return (

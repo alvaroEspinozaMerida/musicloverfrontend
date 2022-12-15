@@ -7,6 +7,18 @@
     width: 275px;
     border-radius: 25px;
 }
+
+.crypto-card{
+    background: #e6e2dd !important;
+}
+.friend-cards-container{
+    margin-top: 50px;
+    margin-left: 175px;
+}
+
+#friends-header{
+    margin-left: -150px;
+}
 .text-zone{
     margin-left: 100px;
 

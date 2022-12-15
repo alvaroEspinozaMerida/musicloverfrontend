@@ -8,10 +8,12 @@ import Typography from '@mui/material/Typography';
 import MenuIcon from '@mui/icons-material/Menu';
 import {Button} from "@mui/material";
 
+import "./index.css"
+
 function Appbar() {
     return (
-        <Box sx={{ flexGrow: 1 }}>
-            <AppBar position="static">
+        <Box sx={{ flexGrow: 1 }} >
+            <AppBar className={"app-bar"} position="static">
                 <Toolbar>
                     <IconButton
                         size="large"
@@ -25,7 +27,7 @@ function Appbar() {
                     <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                         Music Lovers
                     </Typography>
-                    <Button color="inherit">Login</Button>
+                    <Button color="inherit">Chat</Button>
                 </Toolbar>
             </AppBar>
         </Box>
